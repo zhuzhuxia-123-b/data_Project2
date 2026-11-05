@@ -1,0 +1,7 @@
+﻿case,heuristic,optimal_cost,expanded_nodes,generated_nodes,stale_pops,max_frontier_size,median_time_ms,repeats
+PDF_5x5_maze,zero,7,16,17,0,3,0.0185,200
+PDF_5x5_maze,manhattan,7,14,16,0,3,0.0179,200
+OPEN_15x15_same_row,zero,14,106,120,0,15,0.15255,200
+OPEN_15x15_same_row,manhattan,14,15,29,0,15,0.0243,200
+OPEN_15x15_opposite_corners,zero,28,225,225,0,15,0.3163,200
+OPEN_15x15_opposite_corners,manhattan,28,225,225,0,15,0.32365,200

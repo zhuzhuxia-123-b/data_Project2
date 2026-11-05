@@ -1,0 +1,17 @@
+﻿depth,algorithm,best_target,best_value,visited_states,max_depth_reached,evaluated_leaves,cutoff_events,skipped_actions,reduction_vs_left_to_right_pct,median_elapsed_ms,repeats
+1,Minimax_fixed,T2,2,5,1,4,0,0,0.0,0.0071,120
+1,AlphaBeta_left_to_right,T2,2,5,1,4,0,0,0.0,0.0077,120
+1,AlphaBeta_right_to_left,T2,2,5,1,4,0,0,0.0,0.0078,120
+1,AlphaBeta_gain_desc,T2,2,5,1,4,0,0,0.0,0.0084,120
+2,Minimax_fixed,T2,-1,17,2,12,0,0,-30.77,0.0259,120
+2,AlphaBeta_left_to_right,T2,-1,13,2,8,2,4,0.0,0.022,120
+2,AlphaBeta_right_to_left,T2,-1,16,2,11,1,1,-23.08,0.0278,120
+2,AlphaBeta_gain_desc,T2,-1,11,2,6,3,6,15.38,0.0229,120
+3,Minimax_fixed,T2,2,41,3,24,0,0,-57.69,0.0653,120
+3,AlphaBeta_left_to_right,T2,2,26,3,13,5,7,0.0,0.0455,120
+3,AlphaBeta_right_to_left,T2,2,35,3,19,4,4,-34.62,0.0636,120
+3,AlphaBeta_gain_desc,T2,2,21,3,10,5,8,19.23,0.0448,120
+4,Minimax_fixed,T3,3,65,4,24,0,0,-38.3,0.1035,120
+4,AlphaBeta_left_to_right,T3,3,47,4,16,5,6,0.0,0.0845,120
+4,AlphaBeta_right_to_left,T3,3,46,4,16,4,5,2.13,0.0859,120
+4,AlphaBeta_gain_desc,T3,3,37,4,12,6,8,21.28,0.08145,120

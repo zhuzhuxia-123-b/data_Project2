@@ -1,0 +1,4 @@
+# Core algorithms and CSV experiments use only the Python standard library.
+# These packages are required only for src/report_figures.py.
+numpy==2.0.2
+matplotlib==3.9.4

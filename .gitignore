@@ -1,0 +1,19 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments and local environment files
+.venv/
+venv/
+.env
+
+# Test/tool caches and local validation logs
+.pytest_cache/
+.mypy_cache/
+src/results/final_check_logs/
+
+# IDE and operating-system metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

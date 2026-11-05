@@ -1,0 +1,13 @@
+﻿scenario,method,visit_order,best_value,total_nodes,visited_nodes,max_depth_reached,pruned_nodes,saved_node_pct,total_leaves,evaluated_leaves,pruned_leaves,cutoff_events,skipped_subtrees,median_time_ms,repeat_count
+PDF_example,Minimax,left_to_right,5,15,15,3,0,0.0,8,8,0,0,0,0.0037,120
+PDF_example,Alpha-Beta,left_to_right,5,15,14,3,1,6.67,8,7,1,1,1,0.0055,120
+PDF_example,Minimax,right_to_left,5,15,15,3,0,0.0,8,8,0,0,0,0.0048,120
+PDF_example,Alpha-Beta,right_to_left,5,15,14,3,1,6.67,8,7,1,1,1,0.0064,120
+RANDOM_4ARY_DEPTH4_SEED2026,Minimax,left_to_right,1,341,341,4,0,0.0,256,256,0,0,0,0.0739,120
+RANDOM_4ARY_DEPTH4_SEED2026,Alpha-Beta,left_to_right,1,341,190,4,151,44.28,256,125,131,32,71,0.0673,120
+RANDOM_4ARY_DEPTH4_SEED2026,Minimax,right_to_left,1,341,341,4,0,0.0,256,256,0,0,0,0.0919,120
+RANDOM_4ARY_DEPTH4_SEED2026,Alpha-Beta,right_to_left,1,341,133,4,208,61.0,256,87,169,25,52,0.0584,120
+IDEAL_ORDER_4ARY_DEPTH5_SEED2026,Minimax,left_to_right,22,1365,1365,5,0,0.0,1024,1024,0,0,0,0.3162,120
+IDEAL_ORDER_4ARY_DEPTH5_SEED2026,Alpha-Beta,left_to_right,22,1365,141,5,1224,89.67,1024,79,945,36,108,0.0552,120
+IDEAL_ORDER_4ARY_DEPTH5_SEED2026,Minimax,right_to_left,22,1365,1365,5,0,0.0,1024,1024,0,0,0,0.37665,120
+IDEAL_ORDER_4ARY_DEPTH5_SEED2026,Alpha-Beta,right_to_left,22,1365,1242,5,123,9.01,1024,916,108,57,63,0.49925,120
